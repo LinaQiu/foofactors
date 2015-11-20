@@ -14,3 +14,5 @@ RoxygenNote: 5.0.1
 Suggests: testthat
 Imports: knitr,
     dplyr
+URL: https://github.com/LinaQiu/foofactors
+BugReports: https://github.com/LinaQiu/foofactors/issues
