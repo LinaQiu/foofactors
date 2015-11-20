@@ -1,0 +1,24 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+This is a practice package for STAT 545. The purpose of the package is to make factors less annoying.
+
+Here comes the defination for `fbind()`.
+```{r}
+fbind <- function(a, b) {
+  factor(c(as.character(a), as.character(b)))
+}
+```

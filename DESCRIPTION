@@ -11,8 +11,11 @@ Depends:
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
-Suggests: testthat
+Suggests: testthat,
+    knitr,
+    rmarkdown
 Imports: knitr,
     dplyr
 URL: https://github.com/LinaQiu/foofactors
 BugReports: https://github.com/LinaQiu/foofactors/issues
+VignetteBuilder: knitr
